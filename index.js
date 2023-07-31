@@ -4,7 +4,7 @@ const port = 2000
 
 app.get('/:id',(req,res)=>{
     const id = req.params.id
-    res.send(`สวัสดี ${id}`)
+    res.send(`สวัสดีครับผม ${id}`)
 })
 
 app.listen(port,()=>{
